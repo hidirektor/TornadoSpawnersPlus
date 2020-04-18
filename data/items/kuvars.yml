@@ -1,0 +1,9 @@
+material: 'QUARTZ'
+options:
+  amount: 1
+  display-name: '.'
+  lore: {}
+  enchantments: {}
+  flags: {}
+  unbreakable: false
+metas: {}

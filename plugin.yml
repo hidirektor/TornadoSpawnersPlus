@@ -1,0 +1,51 @@
+name: TornadoSpawnersPlus
+version: 16.04.2020
+main: com.infumia.t3sl4.tornadoplus.tornadopsp.TornadoSpawnersPlus
+author: SYN_T3SL4
+description: Customizable spawner for minecraft
+api-version: 1.13
+
+commands:
+  tsp+:
+    description: Main commands of TornadoSpawners+ plugin.
+    aliases: [tornadosp+,tornadospawner+,tornadospawners+]
+    permission: tsp+.help
+    usage: /<tsp,tspawner,tornadosp> help|reload|list|give|get|deal|language|create|edit
+
+permissions:
+   tsp+.*:
+     description: Gives access to all permissions of TornadoSpawners
+     children:
+       tsp+.edit: true
+       tsp+.create: true
+       tsp+.deal: true
+       tsp+.give: true
+       tsp+.help: true
+       tsp+.language: true
+       tsp+.list: true
+       tsp+.reload: true
+       tsp+.take: true
+       tsp+.breakspawner: true
+       tsp+.placespawner: true
+   tsp+.create:
+     default: op
+   tsp+.deal:
+     default: op
+   tsp+.give:
+     default: op
+   tsp+.help:
+     default: op
+   tsp+.language:
+     default: op
+   tsp+.list:
+     default: op
+   tsp+.reload:
+     default: op
+   tsp+.take:
+     default: op
+   tsp+.breakspawner:
+     description: Allows you to break the Spawners
+     default: true
+   tsp+.placespawner:
+     description: Allows you to place the Spawners
+     default: true

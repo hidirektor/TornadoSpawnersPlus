@@ -1,0 +1,20 @@
+mob-name: 'CAVE_SPIDER'
+health: 1000
+damage: 10
+armor: 100
+movement-speed: 0.23000000417232513
+follow-range: 10
+knockback-resistance: 0.4
+custom-name: '&eMy&cName&bIs&7Bob'
+custom-name-visible: false
+target-list:
+- 'ZOMBIE'
+## You can use items which is TornadoSpawners item in that case
+equipments:
+  head: ''
+  chestplate: ''
+  legging: ''
+  boots: ''
+## You can use items which is TornadoSpawners item in that case
+drops:
+- ''

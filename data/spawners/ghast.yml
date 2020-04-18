@@ -1,0 +1,9 @@
+##   item, mob   ##
+spawn-type: 'mob'
+spawn: 'ghast'
+options:
+  delay: 5
+  range: 3
+  required-player-range: 10
+  max-spawn-entity: 3
+  spawn-count: 2

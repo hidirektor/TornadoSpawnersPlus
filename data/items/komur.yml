@@ -1,0 +1,9 @@
+material: 'COAL'
+options:
+  amount: 1
+  display-name: '.'
+  lore: {}
+  enchantments: {}
+  flags: {}
+  unbreakable: false
+metas: {}

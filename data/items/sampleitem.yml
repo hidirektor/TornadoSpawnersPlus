@@ -1,0 +1,91 @@
+## To materials https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+## Materyal Listesi: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+material: 'DIAMOND_SWORD'
+options:
+  amount: 1
+  ##   If you set to the key '.', the item won't have display name   ##
+  ##   Eşyanın İsmi Normal Olsun İstiyorsan ' . ' İşaretini Yazmalısın ##
+  display-name: '&aA sword &bwhich &cis &enice'
+  ##   If you set to the key {}, the item won't have lore   ##
+  #like lore: {}
+  ## Eğer Açıklaması Olmasın İstiyorsan {} Parantezini Aynen Yazmalısın ##
+  #lore: {}    Buradaki Gibi
+  lore:
+    - '&cLo&6rem &eIp&7sum'
+  ##   If you set to the key {}, the item won't have enchantmen   ##
+  #like enchantments: {}
+  ##   Eğer Eşyanın Büyüsü Olmasın İstiyorsan {} Parantezini Aynen Yazmalısın ##
+  #enchantments: {}     Buradaki Gibi
+  enchantments:
+    ##   With level   ##
+    ##   Leveli Olsun İstersen Aşağıdaki Gibi   ##
+    - 'DAMAGE_ALL:10'
+    ##   Without level (default level is 1)   ##
+    ##   Leveli Olmasın İstiyorsan (Yani 1 Level Olacak)  Aşağıdaki Gibi ##
+    - 'KNOCKBACK'
+
+  ##   ıf you set to the key {}, the item won't have flag   ##
+  #like flags: {}
+  flags:
+    ##   To ItemFlags visit to the page   ##
+    ##   https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html   ##
+    ##   If you set to the key {}, the item won't have flag   ##
+    - 'HIDE_ATTRIBUTES'
+  unbreakable: false
+##   !!!Optional Section!!!   ##
+##   !!!İsteğe Bağlı Özellikler !!!   ##
+metas:
+##   !!IMPORTANT!!   ##
+##   You can choose only one meta for the item   ##
+##   If you don't have to use meta on the item   ##
+##   Delete the comment(#) of your choosen meta   ##
+##   !!IMPORTANT!!   ##
+#  banner:
+##   DyeColor:PatternType   ##
+##   For more information about variables   ##
+##   To DyeColor https://minecraft.gamepedia.com/Dye#Item_data , use 'Dec' in the table   ##
+##   To PatternType https://minecraft.gamepedia.com/Banner/Patterns , use 'Code' in the table   ##
+##   For Example: https://www.needcoolshoes.com/banner?=naccak   ##
+#    - '2:bo'
+#    - '0:cre'
+#  book:
+#    author: 'MyNameIsAuthor'
+#    title: '&cNice&eTitle'
+#    pages:
+#    - '&cThere are a lot of pages but you can see just one'
+#  enchanted-stored:
+##   Like a create enchantment for book   ##
+##   Also you can use both 'book', this meta on your book   ##
+#  - 'DAMAGE_ALL:1'
+## For more information about variable   ##
+## visit http://minecraft.tools/en/firework.php   ##
+## Then create your own firework, go to 'Validate'   ##
+## For example:
+## {Fireworks:{Explosions:[{
+##          Type:0,
+##          Flicker:1,
+##          Trail:1,
+##          Colors:[I;1973019,891723],
+##          FadeColors:[I;2437522,1892731]}]}
+## Type: 0|1|2|3|4 = BALL|BALL_LARGE|STAR|CREEPER|BURST
+## The way of the above
+#  firework:
+#    - 'type:BALL;flicker:true;trail:true;colors:[1973019,891723];fade-colors:[2437522,1892731]'
+#  leather-armor:
+##   For rgb code visit to http://minecraft.tools/en/armor.php   ##
+##   After click to 'Generate Crafting', you'll see the commands   ##
+##   Then you need to copy the rgb color int   ##
+##   this is white
+#    color: 16777215
+#  map:
+#    scaling: true
+##   16777215 is white
+#    color: 16777215
+#  potion:
+##   To Potion names visit https://minecraft.gamepedia.com/Potion#Java_Edition   ##
+##   Use 'Regular' in the table
+##   <potionname>:<duration>:<level>   ##
+#    - 'invisibility:10:2'
+#    - 'speed:30:3'
+#  skull:
+#    owner: 'McName'
