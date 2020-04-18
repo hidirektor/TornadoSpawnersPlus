@@ -1,9 +1,0 @@
-# en,tr
-plugin-language: tr
-spawner-settings:
-  spawner-name: '&e%spawner-id% &cSpawner'
-  spawner-lore:
-    - '&7   '
-    - '&cKaybolan Spawnerlardan Sorumlu Değiliz!'
-    - '&0    '
-give-the-broken-spawner-instant: true
