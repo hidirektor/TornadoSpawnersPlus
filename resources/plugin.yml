@@ -1,9 +1,8 @@
 name: TornadoSpawnersPlus
-version: 16.04.2020
-main: com.infumia.t3sl4.tornadoplus.tornadopsp.TornadoSpawnersPlus
+version: 01.02.2021
+main: me.t3sl4.tornadoplus.TornadoSpawnersPlus
 author: SYN_T3SL4
 description: Customizable spawner for minecraft
-api-version: 1.13
 
 commands:
   tsp+:
